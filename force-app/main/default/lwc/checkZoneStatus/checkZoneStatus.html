@@ -1,0 +1,10 @@
+<template>
+    <lightning-card title="checkZoneStatus" icon-name="custom:custom14">
+      <div class="slds-m-around_medium">
+        <p>Estado: <strong>{estado}</strong></p>
+        <p>Demora: <strong>{demora}</strong></p>
+        <!-- <lightning-input label="Name" value={result} onchange={changeHandler}></lightning-input> -->
+        <lightning-button variant="brand" label="Check Status" title="Primary action" onclick={checkStatus} class="slds-m-left_x-small"></lightning-button>
+      </div>
+    </lightning-card>
+  </template>
